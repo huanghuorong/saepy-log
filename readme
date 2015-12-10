@@ -1,55 +1,58 @@
-SAEpy-log ÊÇÒ»¿îÔËĞĞÔÚSAE/pythonÉÏÇáĞÍµÄ¡¢ĞÔÄÜ×¿Ô½µÄblog³ÌĞò
+@Modify by Winters_huangçš„åšå®¢ï¼Œä¿®æ”¹ç‚¹è§æ–‡ç« è¯´æ˜
+http://maydayblog.sinaapp.com/topic/5/
 
-Ê¾Àı http://saepy.sinaapp.com
+SAEpy-log æ˜¯ä¸€æ¬¾è¿è¡Œåœ¨SAE/pythonä¸Šè½»å‹çš„ã€æ€§èƒ½å“è¶Šçš„blogç¨‹åº
 
-ËµÃ÷
-SAEpy-log ÊÇ SAE python blogµÄ¼òĞ´£¬ÊÇÑ§Ï°Ê¹ÓÃSAE µÄÉú³ÉÎï¡£
-Ã»ÓĞÉè¼ÆµÃºÜ¸´ÔÓ£¬ÄÜĞ´µã²©¿Í¾ÍĞĞ¡£
+ç¤ºä¾‹ http://saepy.sinaapp.com
 
-ĞÔÄÜ
-Ò³ÃæÏìÓ¦Ò»°ãÉÙÓÚ150ºÁÃë£¬Æ½¾ùÔÚ60ºÁÃë×óÓÒ£¬ÒÑ»º´æÒ³ÃæÏìÓ¦³£ÔÚ3~6ºÁÃë£»
-Ò»°ã²©¿ÍÖ»ĞèÊ¹ÓÃ1M»º´æ¼´¿É£»
+è¯´æ˜
+SAEpy-log æ˜¯ SAE python blogçš„ç®€å†™ï¼Œæ˜¯å­¦ä¹ ä½¿ç”¨SAE çš„ç”Ÿæˆç‰©ã€‚
+æ²¡æœ‰è®¾è®¡å¾—å¾ˆå¤æ‚ï¼Œèƒ½å†™ç‚¹åšå®¢å°±è¡Œã€‚
 
-ÒÑÊµÏÖµÄ¹¦ÄÜ£º
+æ€§èƒ½
+é¡µé¢å“åº”ä¸€èˆ¬å°‘äº150æ¯«ç§’ï¼Œå¹³å‡åœ¨60æ¯«ç§’å·¦å³ï¼Œå·²ç¼“å­˜é¡µé¢å“åº”å¸¸åœ¨3~6æ¯«ç§’ï¼›
+ä¸€èˆ¬åšå®¢åªéœ€ä½¿ç”¨1Mç¼“å­˜å³å¯ï¼›
 
-Éú³ÉATOM¹©¸å
+å·²å®ç°çš„åŠŸèƒ½ï¼š
+
+ç”ŸæˆATOMä¾›ç¨¿
 XML-RPC ping
-Éú³ÉÍøÕ¾µØÍ¼
-¿ÉÔÚÅäÖÃÎÄ¼şÖĞ¸ü»»Ê¹ÓÃÖ÷Ìâ
-ÓÊ¼şÍ¨Öª
-´úÂë¸ßÁÁ
-¸»ÎÄ±¾±à¼­Æ÷
-AJAX±íµ¥
-»º´æÒ³Ãæ
-ÃÜÂë±£»¤
-»ùÓÚtagµÄÏà¹ØÎÄÕÂ
-¸½¼şÉÏ´«
+ç”Ÿæˆç½‘ç«™åœ°å›¾
+å¯åœ¨é…ç½®æ–‡ä»¶ä¸­æ›´æ¢ä½¿ç”¨ä¸»é¢˜
+é‚®ä»¶é€šçŸ¥
+ä»£ç é«˜äº®
+å¯Œæ–‡æœ¬ç¼–è¾‘å™¨
+AJAXè¡¨å•
+ç¼“å­˜é¡µé¢
+å¯†ç ä¿æŠ¤
+åŸºäºtagçš„ç›¸å…³æ–‡ç« 
+é™„ä»¶ä¸Šä¼ 
 
-°²×°·½·¨£º
-1£©ÏÂÔØ×îĞÂÔ´Âë£»
-2£©ĞŞ¸Ä /config.yaml °Ñ name: saepy ¸ÄÎª×Ô¼ºµÄ£»
-3£©ĞŞ¸Ä setting.py µÄÏà¹ØÉèÖÃ
-4£©µ½SAE ºóÌ¨¿ªÍ¨Ïà¹Ø·şÎñ£¨mysql/Storage/Memcache/Task Queue£©
+å®‰è£…æ–¹æ³•ï¼š
+1ï¼‰ä¸‹è½½æœ€æ–°æºç ï¼›
+2ï¼‰ä¿®æ”¹ /config.yaml æŠŠ name: saepy æ”¹ä¸ºè‡ªå·±çš„ï¼›
+3ï¼‰ä¿®æ”¹ setting.py çš„ç›¸å…³è®¾ç½®
+4ï¼‰åˆ°SAE åå°å¼€é€šç›¸å…³æœåŠ¡ï¼ˆmysql/Storage/Memcache/Task Queueï¼‰
 
-# 1 ³õÊ¼»¯ Mysql
-# 2 ½¨Á¢Ò»¸öÃûÎª attachment µÄ Storage
-# 3 ÆôÓÃMemcache£¬³õÊ¼»¯´óĞ¡Îª1MµÄ mc£¬´óĞ¡¿ÉÒÔµ÷£¬ÈÕºóÎÄÕÂ¶àÁË£¬PV¶àÁË¿ÉÔö¼Ó
-# 4 ´´½¨Ò»¸ö ÃûÎª default µÄ Task Queue
-# Ïê¼û http://saepy.sinaapp.com/t/50 ÏêÏ¸°²×°Ö¸ÄÏ
+# 1 åˆå§‹åŒ– Mysql
+# 2 å»ºç«‹ä¸€ä¸ªåä¸º attachment çš„ Storage
+# 3 å¯ç”¨Memcacheï¼Œåˆå§‹åŒ–å¤§å°ä¸º1Mçš„ mcï¼Œå¤§å°å¯ä»¥è°ƒï¼Œæ—¥åæ–‡ç« å¤šäº†ï¼ŒPVå¤šäº†å¯å¢åŠ 
+# 4 åˆ›å»ºä¸€ä¸ª åä¸º default çš„ Task Queue
+# è¯¦è§ http://saepy.sinaapp.com/t/50 è¯¦ç»†å®‰è£…æŒ‡å—
 
-5)´ò°ü³ÌĞò£¬ÔÚSAE ºóÌ¨Í¨¹ı´ò°üÉÏ´«´úÂë£»
-6£©´ò¿ª http://your_app_id.sinaapp.com/install Èç¹û³ö´íË¢ĞÂÁ½Èı´Î¾Í¿ÉÒÔ
+5)æ‰“åŒ…ç¨‹åºï¼Œåœ¨SAE åå°é€šè¿‡æ‰“åŒ…ä¸Šä¼ ä»£ç ï¼›
+6ï¼‰æ‰“å¼€ http://your_app_id.sinaapp.com/install å¦‚æœå‡ºé”™åˆ·æ–°ä¸¤ä¸‰æ¬¡å°±å¯ä»¥
 
-°æÈ¨
-SAEpy-log³ÌĞòÖ÷ÌåÒÔMITĞí¿É·¢²¼¡£
+ç‰ˆæƒ
+SAEpy-logç¨‹åºä¸»ä½“ä»¥MITè®¸å¯å‘å¸ƒã€‚
 
-ÁíÍâ»¹Ê¹ÓÃµ½ÁËÏÂÁĞ²»ÊôÓÚ±¾³ÌĞòµÄ¿â»ò×ÊÔ´£º
-kuwata-lab.comµÄ[Tenjin]( http://www.kuwata-lab.com/tenjin/ )Ä£°åÒıÇæ£¨×öÁËÒ»Ğ©ĞŞ¸ÄÒÔÊÊÓ¦SAE£©£¬£¨MIT License£©
-[jQuery]( http://jquery.com/ ) £¨MIT License£©
-Facebox £¨MIT License£©
-jquery.cookie £¨MIT License£©
-[jQuery.upload]( http://lagoscript.org ) £¨MIT License£©
-[markItUp!]( http://markitup.jaysalvat.com/home/ ) £¨MIT License£©
-[Highlight.js]( http://softwaremaniacs.org/soft/highlight/en/ ) £¨BSD license£©
-[octopress]( http://www.octopress.org/ )Ö÷Ìâ £¨´ÓWordPressÒÆÖ²¹ıÀ´£©
-ÆäËûÊôÓÚPython»òTornado»òSina App Engine×Ô´øµÄ¿â
+å¦å¤–è¿˜ä½¿ç”¨åˆ°äº†ä¸‹åˆ—ä¸å±äºæœ¬ç¨‹åºçš„åº“æˆ–èµ„æºï¼š
+kuwata-lab.comçš„[Tenjin]( http://www.kuwata-lab.com/tenjin/ )æ¨¡æ¿å¼•æ“ï¼ˆåšäº†ä¸€äº›ä¿®æ”¹ä»¥é€‚åº”SAEï¼‰ï¼Œï¼ˆMIT Licenseï¼‰
+[jQuery]( http://jquery.com/ ) ï¼ˆMIT Licenseï¼‰
+Facebox ï¼ˆMIT Licenseï¼‰
+jquery.cookie ï¼ˆMIT Licenseï¼‰
+[jQuery.upload]( http://lagoscript.org ) ï¼ˆMIT Licenseï¼‰
+[markItUp!]( http://markitup.jaysalvat.com/home/ ) ï¼ˆMIT Licenseï¼‰
+[Highlight.js]( http://softwaremaniacs.org/soft/highlight/en/ ) ï¼ˆBSD licenseï¼‰
+[octopress]( http://www.octopress.org/ )ä¸»é¢˜ ï¼ˆä»WordPressç§»æ¤è¿‡æ¥ï¼‰
+å…¶ä»–å±äºPythonæˆ–Tornadoæˆ–Sina App Engineè‡ªå¸¦çš„åº“
